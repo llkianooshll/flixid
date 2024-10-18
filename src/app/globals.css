@@ -25,3 +25,18 @@ body {
     text-wrap: balance;
   }
 }
+
+.a-style {
+  text-decoration: none;
+  color: black;
+  color: rgb(77, 102, 114);
+}
+
+.card-color
+{
+  background-image: linear-gradient(to right,rgb(85, 106, 118),rgb(86, 110, 122));
+}
+
+.iran-sans{
+  font-family: 'Iranian Sans',Iranian Sans;
+}

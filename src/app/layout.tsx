@@ -29,7 +29,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
+      <body style={{backgroundImage: 'linear-gradient(to right,rgb(85, 106, 118),rgb(86, 110, 122))'}}
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         {children}
