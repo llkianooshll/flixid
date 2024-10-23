@@ -1,11 +1,10 @@
 import Link from 'next/link';
-import '../src/app/globals.css'
 import { FaPlay } from 'react-icons/fa';
 
 export default function MoviesCard() {
     return (
         // banner component
-        <div>
+        <div className=' container-fluid px-4'>
             <div className="row justify-content-center my-5">
                 <div className="col-11 col-md-5">
                     <div style={{ border: 'none', background: 'none' }} className="card my-md-5 my-3">
@@ -14,9 +13,9 @@ export default function MoviesCard() {
                                 <div className='row'>
                                     <div className='col-12 col-lg-4 text-white'>
                                         <div>
-                                            <h1>Lonely Girl Movie</h1>
+                                            <h2>Lonely Girl Movie</h2>
                                         </div>
-                                        <div style={{ marginTop: '30%' }}>
+                                        <div className='play-text'>
                                             <FaPlay style={{ backgroundColor: "black", borderRadius: '50%' }} className='d-inline p-2' size={30} color="#ffffff" />
                                             <b className='mx-2 text-black iran-sans'>پخش فیلم</b>
                                         </div>
@@ -33,9 +32,9 @@ export default function MoviesCard() {
                                 <div className='row'>
                                     <div className='col-12 col-lg-3 text-white'>
                                         <div>
-                                            <h1>Up the Movie 2009</h1>
+                                            <h2>Up the Movie 2009</h2>
                                         </div>
-                                        <div style={{ marginTop: '30%' }}>
+                                        <div className='play-text'>
                                             <FaPlay style={{ backgroundColor: "black", borderRadius: '50%' }} className='d-inline p-2' size={30} color="#ffffff" />
                                             <b className='mx-2 text-black iran-sans'>پخش فیلم</b>
                                         </div>

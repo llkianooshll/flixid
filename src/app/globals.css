@@ -32,6 +32,7 @@ body {
   color: rgb(77, 102, 114);
 }
 
+/* banner component */
 .card-color {
   background-image: linear-gradient(to right, rgb(85, 106, 118), rgb(86, 110, 122));
 }
@@ -44,37 +45,91 @@ body {
   background-image: url('/images/lonely.webp');
   background-size: cover;
   background-position: center;
-  height: 270px;
+  height: 300px;
   z-index: -1;
   border-radius: 18px;
-  box-shadow: 3px 3px 15px black;
+  box-shadow: 1px 1px 15px black;
+  opacity: 90%;
 }
 
 .banner2 {
   background-image: url('/images/up.webp');
   background-size: cover;
   background-position: center;
-  height: 270px;
+  height: 300px;
   z-index: -1;
   border-radius: 18px;
-  box-shadow: 3px 3px 15px black;
+  box-shadow: 1px 1px 15px black;
+}
+
+.play-text {
+  margin-top: 140px;
+}
+
+@media (min-width:600px) and (max-width: 768px) {
+  .play-text {
+    margin-top: 110px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .play-text {
+    margin-top: 90px;
+  }
 }
 
 @media only screen and (max-width: 600px) {
   .banner1 {
-    height: 180px;
+    height: 170px;
     border-radius: 10px;
   }
+
   .banner2 {
     height: 180px;
     border-radius: 10px;
   }
 }
-@media only screen and (max-width: 950px) {
+
+@media (min-width:600px) and (max-width: 950px) {
   .banner1 {
     height: 210px;
   }
+
   .banner2 {
     height: 210px;
+  }
+}
+
+/* filters component */
+
+.filter-text {
+  font-size: 25px;
+}
+
+.filters-overflow {
+  padding-top: 50px;
+  height: 200px;
+  display: flex;
+  overflow-x: auto;
+  overflow-y: hidden;
+  white-space: nowrap;
+  scrollbar-width: none;
+  margin-top: -80px;
+}
+
+.filter-style {
+  border: 1px solid rgba(255, 255, 255, 0.267);
+  border-radius: 25px;
+  padding: 30px 45px;
+}
+
+@media only screen and (max-width: 600px) {
+  .filter-style {
+    padding: 7px 25px;
+    border-radius: 8px;
+  }
+
+  .filter-text {
+    font-size: 15px;
   }
 }

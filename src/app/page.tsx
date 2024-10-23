@@ -1,8 +1,10 @@
-import MoviesCard from "../../components/MoviesCard"
+import MoviesCard from "@/components/moviesCard"
+import Filters from "@/components/filters"
 export default function Home() {
   return (
-    <div className=" container">
-      <MoviesCard/>
+    <div className="">
+      <MoviesCard />
+      <Filters/>
     </div>
   )
 }
