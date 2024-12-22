@@ -4,6 +4,8 @@ import "./globals.css";
 
 import 'bootstrap/dist/css/bootstrap.min.css'; 
 import { ReactNode } from 'react';
+import Navbar from "@/components/navbar";
+import Footer from "@/components/footer";
 
 
 const geistSans = localFont({
@@ -32,7 +34,9 @@ export default function RootLayout({
       <body style={{backgroundImage: 'linear-gradient(to right,rgb(85, 106, 118),rgb(86, 110, 122))'}}
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        <Navbar/>
         {children}
+        <Footer/>
       </body>
     </html>
   );

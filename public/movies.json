@@ -1,0 +1,224 @@
+[
+    [
+        {
+            "id": 1,
+            "name": "Despicable Me 4",
+            "rating": 6.1,
+            "year": 2024,
+            "imageSrc": "desMe",
+            "imdbLink": "tt7510222/?ref_=nv_sr_srsg_1_tt_6_nm_1_in_0_q_des"
+        },
+        {
+            "id": 2,
+            "name": "Hotel Transylvania",
+            "rating": 6.0,
+            "year": 2022,
+            "imageSrc": "hotel4",
+            "imdbLink": "tt9848626/?ref_=nv_sr_srsg_3_tt_8_nm_0_in_0_q_Hotel%2520Transylvania"
+        },
+        {
+            "id": 3,
+            "name": "Frozen",
+            "rating": 7.4,
+            "year": 2013,
+            "imageSrc": "frozen",
+            "imdbLink": "tt2294629/?ref_=nv_sr_srsg_3_tt_8_nm_0_in_0_q_Frozen%2520"
+        },
+        {
+            "id": 4,
+            "name": "Kung Fu Panda 4",
+            "rating": 7.1,
+            "year": 2024,
+            "imageSrc": "panda4",
+            "imdbLink": "tt21692408/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_Kung%2520Fu%2520Panda%25204"
+        },
+        {
+            "id": 5,
+            "name": "Frozen II",
+            "rating": 6.8,
+            "year": 2019,
+            "imageSrc": "frozen",
+            "imdbLink": "tt2294629/?ref_=nv_sr_srsg_3_tt_8_nm_0_in_0_q_Frozen%2520"
+        },
+        {
+            "id": 6,
+            "name": "Despicable Me 4",
+            "rating": 6.1,
+            "year": 2024,
+            "imageSrc": "desMe",
+            "imdbLink": "tt7510222/?ref_=nv_sr_srsg_1_tt_6_nm_1_in_0_q_des"
+        },
+        {
+            "id": 7,
+            "name": "Hotel Transylvania",
+            "rating": 6.0,
+            "year": 2022,
+            "imageSrc": "hotel4",
+            "imdbLink": "tt9848626/?ref_=nv_sr_srsg_3_tt_8_nm_0_in_0_q_Hotel%2520Transylvania"
+        },
+        {
+            "id": 8,
+            "name": "Kung Fu Panda 4",
+            "rating": 7.1,
+            "year": 2024,
+            "imageSrc": "panda4",
+            "imdbLink": "tt21692408/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_Kung%2520Fu%2520Panda%25204"
+        },
+        {
+            "id": 9,
+            "name": "Frozen II",
+            "rating": 6.8,
+            "year": 2019,
+            "imageSrc": "frozen",
+            "imdbLink": "tt2294629/?ref_=nv_sr_srsg_3_tt_8_nm_0_in_0_q_Frozen%2520"
+        }
+    ],
+    [
+        {
+            "id": 1,
+            "name": "The Office",
+            "rating": 9.0,
+            "year": 2005,
+            "imageSrc": "theOffice",
+            "imdbLink": "title/tt0386676/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_The%2520Office"
+        },
+        {
+            "id": 2,
+            "name": "Friends",
+            "rating": 8.9,
+            "year": 1994,
+            "imageSrc": "friends",
+            "imdbLink": "tt0108778/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_Friends"
+        },
+        {
+            "id": 3,
+            "name": "Parks And Recreation",
+            "rating": 8.6,
+            "year": 2009,
+            "imageSrc": "parksAndRecreation",
+            "imdbLink": "tt1266020/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_Parks%2520and%2520Recreation"
+        },
+        {
+            "id": 4,
+            "name": "Brooklyn Nine-Nine",
+            "rating": 8.4,
+            "year": 2013,
+            "imageSrc": "brooklynNineNine",
+            "imdbLink": "tt2467372/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_Brooklyn%2520Nine-Nine"
+        },
+        {
+            "id": 5,
+            "name": "Seinfeld",
+            "rating": 8.9,
+            "year": 1989,
+            "imageSrc": "seinfeld",
+            "imdbLink": "title/tt0098904/?ref_=nv_sr_srsg_0_tt_5_nm_3_in_0_q_Seinfeld"
+        },
+        {
+            "id": 6,
+            "name": "The Good Place",
+            "rating": 8.2,
+            "year": 2016,
+            "imageSrc": "theGoodPlace",
+            "imdbLink": "tt4955642/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_The%2520Good%2520Place"
+        },
+        {
+            "id": 7,
+            "name": "Modern Family",
+            "rating": 8.5,
+            "year": 2009,
+            "imageSrc": "modernFamily",
+            "imdbLink": "tt1442437/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_Modern%2520Family"
+        },
+        {
+            "id": 8,
+            "name": "How I Met Your Mother",
+            "rating": 8.3,
+            "year": 2005,
+            "imageSrc": "himym",
+            "imdbLink": "tt0460649/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_How%2520I%2520Met%2520Your%2520Mother"
+        },
+        {
+            "id": 9,
+            "name": "The Office",
+            "rating": 9.0,
+            "year": 2005,
+            "imageSrc": "theOffice",
+            "imdbLink": "title/tt0386676/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_The%2520Office"
+        }
+    ],
+    [
+        {
+            "id": 1,
+            "name": "Squid Game",
+            "rating": 8.0,
+            "year": 2021,
+            "imageSrc": "squidGame",
+            "imdbLink": "tt10919420/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_Squid%2520Game"
+        },
+        {
+            "id": 2,
+            "name": "Sweet Home",
+            "rating": 7.3,
+            "year": 2020,
+            "imageSrc": "sweetHome",
+            "imdbLink": "tt11612120/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_Sweet%2520Home"
+        },
+        {
+            "id": 3,
+            "name": "X-Men '97",
+            "rating": 8.8,
+            "year": 2024,
+            "imageSrc": "XMen97",
+            "imdbLink": "tt16026746/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_X-Men%2520%2797"
+        },
+        {
+            "id": 4,
+            "name": "Gravity Falls",
+            "rating": 8.9,
+            "year": 2012,
+            "imageSrc": "gravityFalls",
+            "imdbLink": "tt1865718/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_Gravity%2520Falls"
+        },
+        {
+            "id": 5,
+            "name": "Solo Leveling",
+            "rating": 8.3,
+            "year": 2024,
+            "imageSrc": "soloLeveling",
+            "imdbLink": "tt21209876/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_Solo%2520Leveling"
+        },
+        {
+            "id": 6,
+            "name": "Adventure Time",
+            "rating": 8.6,
+            "year": 2010,
+            "imageSrc": "adventureTime",
+            "imdbLink": "tt1305826/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_Adventure%2520Time"
+        },
+        {
+            "id": 7,
+            "name": "Pachinko",
+            "rating": 8.3,
+            "year": 2022,
+            "imageSrc": "pachinko",
+            "imdbLink": "tt8888462/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_Pachinko"
+        },
+        {
+            "id": 8,
+            "name": "Solo Leveling",
+            "rating": 8.3,
+            "year": 2024,
+            "imageSrc": "soloLeveling",
+            "imdbLink": "tt21209876/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_Solo%2520Leveling"
+        },
+        {
+            "id": 9,
+            "name": "Adventure Time",
+            "rating": 8.6,
+            "year": 2010,
+            "imageSrc": "adventureTime",
+            "imdbLink": "tt1305826/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_Adventure%2520Time"
+        }
+    ]
+]

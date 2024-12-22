@@ -12,45 +12,45 @@ export default function Filters() {
         <div className="filters-overflow px-4">
                 <div className="row justify-content-center d-inline">
                     <div style={{ display: "inline" }}>
-                        <Link href="#" className="filter-style  text-white a-style text-center">
+                        <Link href="/allMovies" className="filter-style  text-white a-style text-center">
                             <FaFire className='mb-md-2 mx-1 d-inline filter-text' />
                             <span className=" filter-text iran-sans">پربازدید</span>
                         </Link>
                     </div>
                     <div style={{ display: "inline" }}>
-                        <Link href="#" className="filter-style text-white a-style text-center">
+                        <Link href="/allMovies" className="filter-style text-white a-style text-center">
                             <FaRocket className='mb-md-2 mx-1 d-inline filter-text' />
-                            <span className=" filter-text">اکشن</span>
+                            <span className=" filter-text iran-sans">اکشن</span>
                         </Link>
                     </div>
                     <div style={{ display: "inline" }}>
-                        <Link href="#" className="filter-style text-white a-style text-center">
+                        <Link href="/allMovies" className="filter-style text-white a-style text-center">
                             <FaRegHeart className='mb-md-2 mx-1 d-inline filter-text' />
-                            <span className=" filter-text">عاشقانه</span>
+                            <span className=" filter-text iran-sans">عاشقانه</span>
                         </Link>
                     </div>
                     <div style={{ display: "inline" }}>
-                        <Link href="#" className="filter-style text-white a-style text-center">
+                        <Link href="/allMovies" className="filter-style text-white a-style text-center">
                             <FaFilm className='mb-md-2 mx-1 d-inline filter-text' />
-                            <span className=" filter-text">انیمیشن</span>
+                            <span className=" filter-text iran-sans">انیمیشن</span>
                         </Link>
                     </div>
                     <div style={{ display: "inline" }}>
-                        <Link href="#" className="filter-style text-white a-style text-center">
+                        <Link href="/allMovies" className="filter-style text-white a-style text-center">
                             <FaGhost className='mb-md-2 mx-1 d-inline filter-text' />
-                            <span className=" filter-text">ترسناک</span>
+                            <span className=" filter-text iran-sans">ترسناک</span>
                         </Link>
                     </div>
                     <div style={{ display: "inline" }}>
-                        <Link href="#" className="filter-style text-white a-style text-center">
+                        <Link href="/allMovies" className="filter-style text-white a-style text-center">
                             <FaRegStar className='mb-md-2 mx-1 d-inline filter-text' />
-                            <span className=" filter-text">خاص</span>
+                            <span className=" filter-text iran-sans">اصیل</span>
                         </Link>
                     </div>
                     <div style={{ display: "inline" }}>
-                        <Link href="#" className="filter-style text-white a-style text-center">
+                        <Link href="/allMovies" className="filter-style text-white a-style text-center">
                             <FaRegMoon className='mb-md-2 mx-1 d-inline filter-text' />
-                            <span className=" filter-text">درام</span>
+                            <span className=" filter-text iran-sans">درام</span>
                         </Link>
                     </div>
                 </div>

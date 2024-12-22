@@ -4,9 +4,9 @@ import { FaPlay } from 'react-icons/fa';
 export default function MoviesCard() {
     return (
         // banner component
-        <div className=' container-fluid px-4'>
+        <div className=' container-fluid px-md-4'>
             <div className="row justify-content-center my-5">
-                <div className="col-11 col-md-5">
+                <div className="col-12 col-md-5">
                     <div style={{ border: 'none', background: 'none' }} className="card my-md-5 my-3">
                         <Link href='#' className='a-style'>
                             <div className="card-body banner1">
@@ -25,7 +25,7 @@ export default function MoviesCard() {
                         </Link>
                     </div>
                 </div>
-                <div className="col-11 col-md-7">
+                <div className="col-12 col-md-7">
                     <div style={{ border: 'none', background: 'none' }} className="card my-md-5 my-3">
                         <Link href="#" className='a-style'>
                             <div className=" card-body banner2">
