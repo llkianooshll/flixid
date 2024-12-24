@@ -56,7 +56,7 @@ export default function KdramaTrend() {
         } else {
             let array = fetchArr;
             let result = array.filter(function (item) {
-                return (item[scale] > filterBy);
+                return (item[scale] >= filterBy);
             })
             setMovies(result)
             setCount(prevCount => prevCount + 1);
@@ -90,10 +90,7 @@ export default function KdramaTrend() {
         <div className=" container-fluid px-md-4">
             <div className="d-flex justify-content-between">
                 <div className=''>
-                    {/* <div>
-                        <button style={{ borderRadius: "50%" }} className="mx-2 p-2 badge btn btn-dark">-)</button>
-                        <button style={{ borderRadius: "50%" }} className="mx-2 p-2 badge btn btn-dark">(-</button>
-                    </div> */}
+
                     <div onClick={showComp} className="d-flex bg-black px-1 py-3 filterList-btn">
                         <button className=" text-white mx-md-3 mx-1 d-inline">
                             <FaBars className='d-inline' />
@@ -104,7 +101,6 @@ export default function KdramaTrend() {
                         </button>
                     </div>
                 </div>
-                {/* ye font size koli va responsive baraye codet darnazar begir */}
                 <h2 className="text-white mx-3 mb-5 iran-sans animation-card-font">درام های کره ای پرطرفدار</h2>
             </div>
             <div id='show-component1' className='d-none'>
